@@ -7809,6 +7809,8 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+/* import the Bootstrap */
+/* ------- customize primary button color -------- */
 body {
   background-color: #FFF;
   font-family: "Suez One", serif; }
@@ -7933,8 +7935,8 @@ body {
   margin-left: 129px; }
 
 #boots-images div img {
-  width: 65px;
-  height: 65px;
+  width: 94px;
+  height: 94px;
   outline: 2px solid #00A2FF; }
 
 #form-1 {
@@ -7995,3 +7997,52 @@ body {
   margin-left: 60px;
   margin-right: 60px;
   margin-bottom: 25px; }
+
+#e-mail {
+  background-color: #00A2FF; }
+
+#email-text {
+  margin-left: 10%;
+  color: #FFF; }
+
+#email-p {
+  color: #FFF; }
+
+#submit-email {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#exampleInputPassword3 {
+  width: 88%;
+  margin-left: 5%; }
+
+#envelope {
+  width: 50px;
+  height: 50px;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(29deg) brightness(104%) contrast(109%);
+  padding: 5px;
+  margin-left: 43%;
+  margin-right: 50%; }
+
+#blue-boots {
+  color: #00A2FF; }
+
+#facebook {
+  width: 50px;
+  height: 50px;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(29deg) brightness(104%) contrast(109%); }
+
+#footer {
+  background-color: #828282; }
+  #footer ul li {
+    font-family: PT Sans;
+    color: whitesmoke;
+    list-style: none; }
+
+#instagram {
+  width: 50px;
+  height: 50px;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(29deg) brightness(104%) contrast(109%); }

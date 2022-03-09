@@ -1,10 +1,13 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+/* import the Bootstrap */
+// @import "bootstrap";
 
+/* ------- customize primary button color -------- */   
+$mynewcolor:#77cccc;
 
 $base_font: 'Suez One', serif;
 $base_color: #00A2FF;
 $base_grey: #828282;
-$mynewcolor:#fff;
 $base_light_grey: rgba(130, 130, 130, 0.5);
 
 
@@ -228,8 +231,8 @@ body {
     div {
 
         img {
-            width: 65px;
-            height: 65px;
+            width: 94px;
+            height: 94px;
             outline: 2px solid $base_color;
         }
 
@@ -334,4 +337,84 @@ body {
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 25px;
+}
+
+#e-mail {
+    background-color: $base_color;
+
+}
+
+#email-text {
+    margin-left: 10%;
+    color: #FFF;
+} 
+
+#email-p {
+    color: #FFF;
+}
+
+#submit-email {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#exampleInputPassword3 {
+    width: 88%;
+    margin-left: 5%;
+}
+
+#envelope {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%) 
+    sepia(0%) 
+    saturate(7500%) 
+    hue-rotate(29deg) 
+    brightness(104%) 
+    contrast(109%);
+    padding: 5px;
+    margin-left: 43%;
+    margin-right: 50%;
+}
+
+#blue-boots {
+    color: $base_color;
+}
+
+#facebook {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%) 
+    sepia(0%) 
+    saturate(7500%) 
+    hue-rotate(29deg) 
+    brightness(104%) 
+    contrast(109%);
+
+}
+
+#footer {
+    background-color: $base_grey;
+    ul {
+        li {
+            font-family: PT Sans;
+            color: whitesmoke;
+            list-style: none;
+        }
+    }
+}
+
+#instagram {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%) 
+    sepia(0%) 
+    saturate(7500%) 
+    hue-rotate(29deg) 
+    brightness(104%) 
+    contrast(109%);
+
 }
