@@ -1,0 +1,337 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+$base_font: 'Suez One', serif;
+$base_color: #00A2FF;
+$base_grey: #828282;
+$mynewcolor:#fff;
+$base_light_grey: rgba(130, 130, 130, 0.5);
+
+
+
+body {
+
+    background-color: #FFF;
+    font-family: $base_font;
+
+}
+
+// NAVBAR STYLES
+
+#NavBar {
+    background-color: white;
+}
+
+#shoes {
+
+    color: $base_color;
+}
+
+    #gift-svg {
+
+    width: 24px;
+    height: 20px;
+
+    }
+
+    #star-svg {
+
+        width: 24px;
+        height: 20px;
+
+    }
+
+    #hart-svg {
+
+        width: 24px;
+        height: 20px;
+
+    }
+
+    #tag-svg {
+
+        width: 24px;
+        height: 20px;
+
+    }
+
+    @media (min-width: 992px){
+        .navbar li {
+
+            padding-left:8px;
+            padding-right:8px;
+            margin-left:8px;
+            margin-right:8px;
+            margin-top: 4px;
+
+        }
+    }
+
+// BANNER STYLES
+
+#banner {
+
+    background-color: #EAEAEA;
+    
+    #cell-1 {
+
+        color: #828282;
+
+    }
+
+
+    #cell-2 {
+
+        color: #828282;
+
+    }
+
+    #cell-3 {
+        p {
+            font-size: 14px;
+        }
+    }
+
+}
+
+// MAIN SECTION STYLES
+
+#top-banner {
+    width: 990px;
+    height: 90px;
+}
+
+
+.breadcrumb-item {
+    font-family: PT Sans;
+}
+
+.breadcrumb-blue {
+    color: $base_color;
+}
+
+.breadcrumb-grey {
+    color: $base_grey;
+}
+
+
+#carousel-card {
+    
+    border: 6px solid $base_color;
+
+    h2 {
+        font-size: 16px;
+        margin-top: 22px;
+        margin-left: 22px;
+    }
+}
+
+#alt-store {
+
+    width: 15px;
+    height: 10px;
+    margin-left: 22px;
+    filter: invert(60%) sepia(10%) saturate(19%) hue-rotate(352deg) brightness(83%) contrast(89%);
+
+}
+
+#superbalist {
+    color: $base_grey;
+    // opacity: 0.5;
+    font-family: PT sans;
+    font-size: 12px;
+}
+
+#faux {
+    margin-left: 27px;
+    font-family: PT sans;
+    font-weight: bold;
+
+}
+
+#fabrication {
+    color: $base_grey;
+    // opacity: 0.5;
+    margin-left: 42px;
+    font-family: PT sans;
+    
+
+}
+
+#brown-circle {
+    width: 15px;
+    height: 15px;
+    filter: invert(36%) 
+    sepia(73%) 
+    saturate(366%) 
+    hue-rotate(343deg) 
+    brightness(95%) 
+    contrast(83%);
+    margin-left: 54px;
+    margin-right: 7px;
+
+}
+
+#boot-colour{
+    margin-left: 42px;
+    font-family: PT sans;
+    color: $base_grey;
+    // opacity: 0.5;
+}
+
+#brown {
+    font-family: PT sans;
+    font-weight: bold;
+
+}
+
+#carousel-card {
+
+    h3 {
+
+        color: $base_grey;
+        opacity: 0.5;
+        font-family: PT sans;
+        font-size: 14px;
+        margin-left: 42px;
+
+    }
+
+    ul {
+
+        li {
+
+            color: $base_grey;
+            // opacity: 0.5;
+            font-family: PT sans;
+            font-size: 14px;
+            margin-left: 42px;
+        }
+    }
+
+
+
+    #image-2 {
+        margin-bottom: 15px ;
+        margin-left: 30px;
+    }
+    #image-3 {
+        width: 75px;
+        height: 45px;
+        margin-bottom: 29px;
+        margin-left: 129px;
+    }
+}
+
+#boots-images {
+    
+    div {
+
+        img {
+            width: 65px;
+            height: 65px;
+            outline: 2px solid $base_color;
+        }
+
+    }   
+}
+
+#form-1 {
+
+    outline: 2px solid $base_color;
+    background-color: $base_light_grey;
+    padding: 6px;
+
+    button {
+        width: 100%;
+       
+    }
+
+    #shopping-cart {
+        width: 24px;
+        height: 20px;
+        filter: invert(100%) 
+        sepia(0%) 
+        saturate(7500%) 
+        hue-rotate(29deg) 
+        brightness(104%) 
+        contrast(109%);
+
+    }
+
+}
+
+#left-arrow {
+    width: 24px;
+    height: 20px;
+    filter: invert(100%) 
+    sepia(0%) 
+    saturate(7500%) 
+    hue-rotate(29deg) 
+    brightness(104%) 
+    contrast(109%);
+    margin-left: 21px;
+
+}
+
+#magn {
+    width: 24px;
+    height: 20px;
+    filter: invert(100%) 
+    sepia(0%) 
+    saturate(7500%) 
+    hue-rotate(29deg) 
+    brightness(104%) 
+    contrast(109%);
+}
+#form-2 {
+    outline: 2px solid $base_color;
+
+}
+#form-header {
+    background-color: $base_color;
+
+}
+
+#form-p {
+    font-family: PT SANS;
+    color: #FFF;
+    margin-left: 13px;
+}
+
+#form-p-2 {
+    color: #FFF;
+    margin-left: 43px;
+}
+
+#label-01 {
+    font-family: PT SANS;
+    color: $base_light_grey;
+}
+
+#label-02 {
+    font-family: PT SANS;
+    color: $base_light_grey;
+}
+
+#label-03 {
+    font-family: PT SANS;
+    color: $base_light_grey;
+}
+
+#search-button {
+    width: 24px;
+    height: 20px;
+    filter: invert(100%) 
+    sepia(0%) 
+    saturate(7500%) 
+    hue-rotate(29deg) 
+    brightness(104%) 
+    contrast(109%);
+}
+
+#button-02 {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+}
